@@ -60,8 +60,8 @@ To make the CSV file, I used MySQL on the *adventureworks* database with the fol
 
 To recreate my project, you should follow the steps below:
 - A new database, *midterm_dw*, should be created in MySQL. The *adventureworks* database should
-also be created and populated with its data. (The scripts to populate the data are the .sql files in the */data/* folder.)
-- The *Lab_02c_Create_Populate_Dim_Date.sql* file should be used to create the *dim_date* table in *midterm_dw*.
+also be created and populated with its data. (The script to populate the data can be found [here](https://github.com/JTupitza-UVA/DS-2002/blob/main/Projects/Scripts/AdventureWorks_MySQL.sql).)
+- The *Lab_02c_Create_Populate_Dim_Date.sql* file should be used to create the *dim_date* table in *midterm_dw*. (The script can be found [here](https://github.com/JTupitza-UVA/DS-2002/blob/main/01-SQL/Labs/Lab_02c_Create_Populate_Dim_Date.sql).)
 - The *Midterm.ipynb* file should be placed in the parent folder of the */data/* folder. 
 - The above SQL scripts can be used to generate the products.json and territory.csv files from MySQL. These files should be placed within the */data/* folder.
 - A Jupyter server can then run *Midterm.ipynb*. You will likely need to tweak the *src_db_args* and *dest_db_args* variables in *Midterm.ipynb* to connect to the MySQL databases. You may also need to change *mongodb_args* to connect to a MongoDB Atlas cluster.
